@@ -1,0 +1,429 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    background-color: #8a0000;
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-button-next {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    margin-left: -13.5px;
+    transform: rotate(-90deg);
+    transition: 1s;
+    animation: jiantou 1s linear infinite;
+}
+
+@keyframes jiantou {
+    0% {
+        position: absolute;
+      
+        bottom: 2%;
+      
+    }
+
+    100%{
+        position: absolute;
+        opacity: 0;
+        top: auto;
+        bottom: 5%;
+      
+        
+    }
+}
+
+.mic {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    animation: mic 2s linear infinite;
+    z-index: 2;
+}
+
+@keyframes mic {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.s1 .a {
+    position: absolute;
+    top: 10%;
+    width: 59%;
+    height: 40%;
+    border-radius: 68px;
+}
+
+.cjzm {
+    font-size: 24px;
+    color: #f0e0bc;
+    position: absolute;
+    top: 55%;
+}
+
+.s1 .b {
+    position: absolute;
+    top: 55%;
+    width: 45%;
+}
+
+.s1 .c {
+    position: absolute;
+    top: 65%;
+    width: 50%;
+}
+
+.s1 .didian {
+    position: absolute;
+    top: 83%;
+    color: #f0e0bc;
+}
+
+.s1 .didian2 {
+    position: absolute;
+    top: 87%;
+    color: #f0e0bc;
+}
+.s2 .a{
+    background-color: #f5d08c;
+    width: 90%;
+    height: 90%;
+}
+.s2 .a .a1{
+    position: absolute;
+    top:5%;
+    left: 5%;
+}
+.s2 .a .a2{
+    position: absolute;
+    top:5%;
+    right: 5%;
+    transform: rotate(90deg);
+}
+.s2 .a .a3{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    transform: rotate(-90deg);
+}
+.s2 .a .a4{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    transform: rotate(-180deg);
+}
+.s2 .b{
+    font-size: 24px;
+    color: #9b2116;
+        position: absolute;
+    top: 10%;
+    left: 39%;
+}
+.s2 .a .a5{
+    position: absolute;
+    top: 23%;
+    left: 24%;
+    width: 16%;
+    height: 12%;
+}
+.s2 .a .a6{
+    position: absolute;
+    top: 23%;
+    left: 65%;
+     width: 12%;
+    height: 12%;
+}
+.zzm{
+        position: absolute;
+    top: 35%;
+    left: 17%;
+    color: #9b2116;
+    font-size: 18px;
+}
+.ycj{
+         position: absolute;
+    top: 35%;
+    left: 57%;
+    color: #9b2116;
+    font-size: 18px;
+}
+.zj{
+     color: #9b2116;
+    font-size: 16px;
+           position: absolute;
+    top:41%;
+    left: 23%;
+}
+.men{
+    position: absolute;
+    top: 85%;
+    left: 44%;
+    width: 15%;
+    height: 10%;
+}
+.s3 .a{
+
+    background-color: #f5d08c;
+    width: 90%;
+    height: 90%;
+}
+.s3 .a .a1{
+    position: absolute;
+    top:5%;
+    left: 5%;
+}
+.s3 .a .a2{
+    position: absolute;
+    top:5%;
+    right: 5%;
+    transform: rotate(90deg);
+}
+.s3 .a .a3{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    transform: rotate(-90deg);
+}
+.s3 .a .a4{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    transform: rotate(-180deg);
+}
+.s3 .b{
+    font-size: 36px;
+    color: #9b2116;
+        position: absolute;
+    top: 2%;
+    left: 32%;
+}
+.datu{
+    position: absolute;
+    top: 17%;
+    left: 1%;
+    right: 1%;
+    width: 98%;
+    height: 30%;
+}
+.tu{
+    position: absolute;
+    top: 49%;
+    left: 1%;
+    width: 98.3%;
+    height: 100%;
+}
+.tu .xiaotu{
+   width: 32%; 
+    height: 15%;
+}
+.s3 .ci{
+    position: absolute;
+    top: 68%;
+    left: 20%;
+        color: #9b2116;
+    font-size: 16px;
+}
+.s4 .b{
+        font-size: 36px;
+    color: #9b2116;
+        position: absolute;
+    top: 2%;
+    left: 32%;
+}
+.s4 .a{
+    
+    background-color: #f5d08c;
+    width: 90%;
+    height: 90%;
+}
+.s4 .a .a1{
+    position: absolute;
+    top:5%;
+    left: 5%;
+}
+.s4 .a .a2{
+    position: absolute;
+    top:5%;
+    right: 5%;
+    transform: rotate(90deg);
+}
+.s4 .a .a3{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    transform: rotate(-90deg);
+}
+.s4 .a .a4{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    transform: rotate(-180deg);
+}
+.hong{
+    z-index: 5;
+    position: absolute;
+    top:0%;
+    width: 100%;
+    height: 35%;
+    background-color:#9b2116;
+}
+.huang{
+    width: 100%;
+       height: 100%;
+    background-color: #f5d08c; 
+}
+.hllc{z-index: 4;
+    margin-top: 15%;
+    font-size: 24px;
+    color:rgb(243, 237, 219);
+}
+.s4datu{
+    z-index: 8;
+        position: absolute;
+    top:16%;
+    left: 11%;
+        width: 80%;
+    height: 30%;
+}
+.s4xia{
+    position: absolute;
+    top:50%;
+    left: 12%;
+    width: 78%;
+    height: 5%;
+}
+.gun{
+    position: absolute;
+    top:57%;
+    left: 48%;
+    height: 34%;
+}
+#a{
+       position: absolute;
+    top:60%;
+    left: 37%;
+    color: #9b2116;
+    font-size: 18px;
+}
+#b{
+          position: absolute;
+    top:59.5%;
+    left: 55%;
+    color: #9b2116;
+    font-size: 18px;
+}
+#c{
+              position: absolute;
+    top:66%;
+    left: 55%;
+    color: #9b2116;
+    font-size: 18px;
+}
+#d{
+              position: absolute;
+    top:65.5%;
+    left: 31%;
+    color: #9b2116;
+    font-size: 18px;
+}
+#e{
+                  position: absolute;
+    top:71.5%;
+    left: 37%;
+    color: #9b2116;
+    font-size: 18px;
+}
+#f{
+                position: absolute;
+    top:71%;
+    left: 55%;
+    color: #9b2116;
+    font-size: 18px;  
+}
+#g{
+                      position: absolute;
+    top:78.5%;
+    left: 37%;
+    color: #9b2116;
+    font-size: 18px;
+}
+#h{
+                    position: absolute;
+    top:78%;
+    left: 55%;
+    color: #9b2116;
+    font-size: 18px; 
+}
+.s5datu{
+    border-radius: 68px;
+        z-index: 8;
+        position: absolute;
+    top:16%;
+    left: 11%;
+        width: 80%;
+    height: 30%;
+}
+.emm{
+                        position: absolute;
+    top:62%;
+    left:17%;
+}
+.haha{
+    color: #ccc;
+    border: #9b2116 2px solid; 
+    border-radius: 18px;
+    width: 150%;
+    padding-top: 8%;
+    padding-left: 5%;
+    padding-bottom: 8%;
+    margin-bottom: 2%;
+}
+.edg{
+    color: #fff;
+    font-size: 18px;
+    background-color: #9b2116;
+    border: #9b2116 2px solid; 
+        border-radius: 18px;
+        width: 157%;
+     padding-top: 8%;
+    padding-left: 0%;
+    padding-bottom: 8%;
+}
